@@ -1,0 +1,17 @@
+{
+  "run_name": "full_scratch_aux_001",
+  "model_path": "models/full_scratch_aux_001/best.keras",
+  "initialization": "random",
+  "patch_weights_used": false,
+  "input_images": 1,
+  "reference_image_required": false,
+  "mask_input_required": false,
+  "input_size": [
+    640,
+    640,
+    1
+  ],
+  "threshold": 0.5,
+  "validation_macro_f1": 0.987499296835447,
+  "official_test_evaluated": false
+}

@@ -1,0 +1,28 @@
+{
+  "run_name": "binary_cnn_001",
+  "status": "completed",
+  "metrics": {
+    "samples": 4415,
+    "accuracy": 0.9886749716874292,
+    "balanced_accuracy": 0.9888854958378575,
+    "defect_precision": 0.9781068898905344,
+    "defect_recall": 0.9895765472312703,
+    "defect_f1": 0.9838082901554405,
+    "macro_f1": 0.9875502614134917,
+    "normal_false_positive_rate": 0.011805555555555555,
+    "defect_false_negative_rate": 0.010423452768729642,
+    "roc_auc": 0.9985226655808903,
+    "average_precision": 0.9968485803543633,
+    "true_normal": 2846,
+    "false_defect": 34,
+    "missed_defect": 16,
+    "true_defect": 1519,
+    "threshold": 0.5,
+    "split": "validation",
+    "official_test_evaluated": false
+  },
+  "best_epoch": 12,
+  "epochs_completed": 18,
+  "elapsed_seconds": 667.6141915839398,
+  "model_path": "/Users/yeongjunna/DNN_project/models/binary_cnn_001/best.keras"
+}

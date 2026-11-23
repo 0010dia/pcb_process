@@ -1,0 +1,6 @@
+{
+  "performance_comparison_eligible": false,
+  "reason": "Metal graph/eager prediction mismatch reproduced on same weights and inputs; see results/reports/metal_diagnostic.json",
+  "replacement": "A_baseline_safe_002",
+  "original_logs_and_model_preserved": true
+}

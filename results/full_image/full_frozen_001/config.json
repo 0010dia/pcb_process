@@ -1,0 +1,21 @@
+{
+  "method": "patch_conv_transfer_frozen",
+  "native_size": 640,
+  "head_epochs": 40,
+  "head_batch": 32,
+  "learning_rate": 0.001,
+  "patience": 6,
+  "seed": 42,
+  "train_views": 2,
+  "execution": {
+    "optimizer_options": {
+      "disable_model_pruning": false,
+      "disable_meta_optimizer": true
+    },
+    "gpu_devices": [
+      "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+    ]
+  },
+  "input_manifest_sha256": "4ce69ca689f9825e86d545edb56415f0b34f3716564579376d257c124ceaa753",
+  "patch_model_sha256": "0a78a9448981fd89b42cd62882501669a6bb440ac39228055db623c17ecca40e"
+}

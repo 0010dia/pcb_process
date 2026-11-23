@@ -1,0 +1,37 @@
+{
+  "counts": [
+    {
+      "split": "train",
+      "label": "defect",
+      "images": 800
+    },
+    {
+      "split": "train",
+      "label": "normal",
+      "images": 800
+    },
+    {
+      "split": "val",
+      "label": "defect",
+      "images": 200
+    },
+    {
+      "split": "val",
+      "label": "normal",
+      "images": 200
+    }
+  ],
+  "rows": 2000,
+  "duplicate_pixel_rows_within_train": 2,
+  "train_sources": 800,
+  "validation_sources": 200,
+  "cross_split_pixel_overlap": 0,
+  "cross_split_group_overlap": 0,
+  "test_images_read": 0,
+  "native_resolution": [
+    640,
+    640
+  ],
+  "cropped": false,
+  "manifest_sha256": "4ce69ca689f9825e86d545edb56415f0b34f3716564579376d257c124ceaa753"
+}

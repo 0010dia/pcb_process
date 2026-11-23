@@ -1,0 +1,18 @@
+{
+  "run_name": "A_baseline_001",
+  "status": "completed",
+  "metrics": {
+    "accuracy": 0.36547231270358305,
+    "precision_macro": 0.25344168053865274,
+    "recall_macro": 0.4014356590133665,
+    "macro_f1": 0.2830815898161878,
+    "weighted_f1": 0.2613293877970862,
+    "split": "validation",
+    "official_test_evaluated": false,
+    "samples": 1535
+  },
+  "epochs_completed": 8,
+  "best_epoch": 1,
+  "elapsed_seconds": 77.10170779202599,
+  "model_path": "/Users/yeongjunna/DNN_project/models/A_baseline_001/best.keras"
+}

@@ -1,0 +1,7 @@
+class_id,class_name,train,val
+1,Open Circuit,1005,278
+2,Short Circuit,825,203
+3,Mousebite,1032,347
+4,Spur,888,254
+5,Spurious Copper,778,232
+6,Pin Hole,810,221

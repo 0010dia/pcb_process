@@ -1,0 +1,18 @@
+{
+  "config": {
+    "run_name": "A_baseline_001",
+    "variant": "A",
+    "epochs": 30,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "patience": 7,
+    "augment": false,
+    "seed": 42
+  },
+  "split_sha256": {
+    "train.csv": "bc259dbdb873ee705e8bb9490e7915ac3b2e87a77bf00b4de871add3e314300e",
+    "val.csv": "ecb9bc70dc5aceb03a35f567e0e8dec603bf713ce59d55999c0b6c007a607b03",
+    "sources.csv": "434d9414ed97637c577ae0100dffbee93b8c4fd8610ffa1107dc724db7427a67",
+    "preprocessing_config.json": "13efa02e276c14a836c98ed09d0efb0e9e14a442fa4325847b86150dc6e6070a"
+  }
+}

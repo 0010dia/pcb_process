@@ -1,0 +1,7 @@
+class_id,target_id,class_name,korean,trainval,test,total
+1,0,Open Circuit,회로 단선,1283,659,1942
+2,1,Short Circuit,회로 단락,1028,478,1506
+3,2,Mousebite,패턴 가장자리 결손,1379,586,1965
+4,3,Spur,구리 돌출,1142,483,1625
+5,4,Spurious Copper,잔여 구리,1010,464,1474
+6,5,Pin Hole,패턴 내부 구멍,1031,470,1501

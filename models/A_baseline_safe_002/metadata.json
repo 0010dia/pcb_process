@@ -1,0 +1,55 @@
+{
+  "classes": [
+    {
+      "target_id": 0,
+      "name": "Open Circuit",
+      "korean": "회로 단선"
+    },
+    {
+      "target_id": 1,
+      "name": "Short Circuit",
+      "korean": "회로 단락"
+    },
+    {
+      "target_id": 2,
+      "name": "Mousebite",
+      "korean": "패턴 가장자리 결손"
+    },
+    {
+      "target_id": 3,
+      "name": "Spur",
+      "korean": "구리 돌출"
+    },
+    {
+      "target_id": 4,
+      "name": "Spurious Copper",
+      "korean": "잔여 구리"
+    },
+    {
+      "target_id": 5,
+      "name": "Pin Hole",
+      "korean": "패턴 내부 구멍"
+    }
+  ],
+  "image_size": [
+    128,
+    128
+  ],
+  "channels": 1,
+  "input_range": [
+    0,
+    255
+  ],
+  "normalization": "Rescaling(1/255) inside saved model",
+  "input_type": "defect-centered patch",
+  "softmax": "uncalibrated relative class scores; not probability of defect presence",
+  "crop_config": {
+    "size": 128,
+    "margin": 16,
+    "validation_group": "group00041",
+    "seed": 42,
+    "endpoint": "inclusive_conservative",
+    "padding": "edge",
+    "interpolation": "bilinear"
+  }
+}

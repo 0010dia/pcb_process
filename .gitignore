@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.cache/
+/data/
+/.idea/
+/.tools/
+/.python*/
+/.uv-cache*/
+/.venv-wsl/
+/python-*-amd64.exe

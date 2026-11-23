@@ -1,0 +1,28 @@
+{
+  "name": "pcb-supplier-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "sync-data": "node scripts/sync-data.mjs",
+    "predev": "npm run sync-data",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "npm run sync-data",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "pretest": "npm run sync-data",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.2.0",
+    "@fontsource-variable/noto-sans-kr": "^5.2.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "csv-parse": "^7.0.3",
+    "vite": "^7.0.0"
+  }
+}

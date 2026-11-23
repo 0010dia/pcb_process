@@ -1,0 +1,8 @@
+{
+  "run_name": "B_improved_001",
+  "selection_metric": "validation macro_f1",
+  "validation_macro_f1": 0.9949463198655196,
+  "official_test_evaluated": false,
+  "model_path": "models/B_improved_001/best.keras",
+  "status": "candidate; not final test result"
+}

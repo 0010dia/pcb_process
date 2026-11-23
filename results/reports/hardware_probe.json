@@ -1,0 +1,9 @@
+{
+  "tensorflow": "2.18.1",
+  "gpus": [
+    "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+  ],
+  "actual_device": "/job:localhost/replica:0/task:0/device:GPU:0",
+  "matmul_sum": 32768.0,
+  "note": "Matrix smoke test only. See metal_diagnostic.json and metal_workaround.json for graph correctness."
+}

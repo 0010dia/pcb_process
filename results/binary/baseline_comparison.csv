@@ -1,0 +1,3 @@
+model,split,official_test_evaluated,samples,accuracy,balanced_accuracy,defect_precision,defect_recall,defect_f1,macro_f1,normal_false_positive_rate,defect_false_negative_rate,roc_auc,average_precision,true_normal,false_defect,missed_defect,true_defect,threshold
+Always normal,validation,False,4415,0.652321630804077,0.5,0.0,0.0,0.0,0.3947909527073338,0.0,1.0,0.5,0.347678369195923,2880,0,1535,0,0.5
+binary_cnn_001,validation,False,4415,0.9886749716874292,0.9888854958378575,0.9781068898905344,0.9895765472312703,0.9838082901554405,0.9875502614134917,0.011805555555555555,0.010423452768729642,0.9985226655808903,0.9968485803543633,2846,34,16,1519,0.5

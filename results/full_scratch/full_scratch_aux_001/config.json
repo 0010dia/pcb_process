@@ -1,0 +1,23 @@
+{
+  "initialization": "random",
+  "patch_weights_used": false,
+  "input_images": 1,
+  "native_size": 640,
+  "epochs": 20,
+  "batch_size": 4,
+  "learning_rate": 0.0003,
+  "patience": 5,
+  "seed": 42,
+  "auxiliary_weight": 0.5,
+  "positive_weight": 299.32187818487097,
+  "execution": {
+    "optimizer_options": {
+      "disable_model_pruning": false,
+      "disable_meta_optimizer": true
+    },
+    "gpu_devices": [
+      "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+    ]
+  },
+  "manifest_sha256": "e780bb8ac2e4bc62fd4df29b99fa167a5d97d92852d2f2ae19b7e2423ae8f47c"
+}

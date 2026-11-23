@@ -1,0 +1,7 @@
+split,kind,target,patches
+train,defect,1,5338
+train,template_matched,0,4690
+train,tested_clear,0,5308
+val,defect,1,1535
+val,template_matched,0,1346
+val,tested_clear,0,1534

@@ -1,0 +1,15 @@
+{
+  "initial_epoch": 11,
+  "optimizer_iterations": 4400,
+  "execution": {
+    "optimizer_options": {
+      "disable_model_pruning": false,
+      "disable_meta_optimizer": false
+    },
+    "gpu_devices": [
+      "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+    ]
+  },
+  "previous_log_archive": "history_before_resume_1795049919557557797.csv",
+  "augmentation_random_stream_restarted": true
+}

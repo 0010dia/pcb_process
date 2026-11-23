@@ -1,0 +1,20 @@
+{
+  "python": "3.11.9 (main, Aug 14 2024, 04:17:21) [Clang 18.1.8 ]",
+  "executable": "/Users/yeongjunna/DNN_project/venv/bin/python",
+  "machine": "arm64",
+  "platform": "macOS-26.5.1-arm64-64bit",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "Pillow": "13.0.0",
+    "ipykernel": "7.4.0",
+    "tensorflow": "2.18.1",
+    "tensorflow-metal": "1.2.0"
+  },
+  "gpu_runtime_checked_by_eda": false,
+  "gpu_verification_reports": [
+    "hardware_probe.json",
+    "metal_workaround.json"
+  ]
+}

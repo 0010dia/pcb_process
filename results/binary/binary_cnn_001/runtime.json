@@ -1,0 +1,30 @@
+{
+  "python": "3.11.9",
+  "packages": {
+    "tensorflow": "2.18.1",
+    "tensorflow-metal": "1.2.0",
+    "keras": "3.8.0",
+    "numpy": "2.0.2",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.6.1"
+  },
+  "execution": {
+    "optimizer_options": {
+      "disable_model_pruning": false,
+      "disable_meta_optimizer": true
+    },
+    "gpu_devices": [
+      "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+    ]
+  },
+  "parameters": 1121169,
+  "class_weight": {
+    "0": 0.7669533906781356,
+    "1": 1.4364930685650057
+  },
+  "train_samples": 15336,
+  "validation_samples": 4415,
+  "fresh_weights": true,
+  "transferred_six_class_weights": false,
+  "nondeterminism": "fixed seed; parallel augmentation and GPU may not be bitwise reproducible"
+}

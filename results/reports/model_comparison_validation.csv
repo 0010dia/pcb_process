@@ -1,0 +1,3 @@
+run_name,variant,augment,epochs,best_epoch,accuracy,precision_macro,recall_macro,macro_f1,weighted_f1,split,official_test_evaluated,samples
+A_baseline_safe_002,A,False,12,5,0.6260586319218241,0.6462110140578855,0.6338109034062267,0.6315452033715436,0.6248792473780855,validation,False,1535
+B_improved_001,B,True,40,36,0.9947882736156352,0.9947801697058795,0.9951290457540952,0.9949463198655196,0.9947894831343763,validation,False,1535

@@ -1,0 +1,5 @@
+split,label,images
+train,defect,800
+train,normal,800
+val,defect,200
+val,normal,200

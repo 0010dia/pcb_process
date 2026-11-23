@@ -1,0 +1,18 @@
+{
+  "run_name": "B_improved_001",
+  "status": "completed",
+  "metrics": {
+    "accuracy": 0.9947882736156352,
+    "precision_macro": 0.9947801697058795,
+    "recall_macro": 0.9951290457540952,
+    "macro_f1": 0.9949463198655196,
+    "weighted_f1": 0.9947894831343763,
+    "split": "validation",
+    "official_test_evaluated": false,
+    "samples": 1535
+  },
+  "epochs_completed": 40,
+  "best_epoch": 36,
+  "elapsed_seconds": 1028.6871485830052,
+  "model_path": "/Users/yeongjunna/DNN_project/models/B_improved_001/best.keras"
+}

@@ -1,0 +1,2 @@
+# Preserve CSV bytes used by the training manifests and reports.
+*.csv -text

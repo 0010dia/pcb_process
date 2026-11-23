@@ -1,0 +1,18 @@
+{
+  "samples": 4415,
+  "accuracy": 0.652321630804077,
+  "balanced_accuracy": 0.5,
+  "defect_precision": 0.0,
+  "defect_recall": 0.0,
+  "defect_f1": 0.0,
+  "macro_f1": 0.3947909527073338,
+  "normal_false_positive_rate": 0.0,
+  "defect_false_negative_rate": 1.0,
+  "roc_auc": 0.5,
+  "average_precision": 0.347678369195923,
+  "true_normal": 2880,
+  "false_defect": 0,
+  "missed_defect": 1535,
+  "true_defect": 0,
+  "threshold": 0.5
+}

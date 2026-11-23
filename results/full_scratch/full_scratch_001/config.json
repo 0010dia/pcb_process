@@ -1,0 +1,27 @@
+{
+  "config": {
+    "run_name": "full_scratch_001",
+    "epochs": 40,
+    "batch_size": 4,
+    "learning_rate": 0.0003,
+    "patience": 8,
+    "seed": 42
+  },
+  "initialization": "random_he_normal_no_pretrained_weights",
+  "pixel_input": "native_640_no_crop_no_resize",
+  "execution": {
+    "optimizer_options": {
+      "disable_model_pruning": false,
+      "disable_meta_optimizer": true
+    },
+    "gpu_devices": [
+      "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+    ]
+  },
+  "manifest_sha256": {
+    "images.csv": "4ce69ca689f9825e86d545edb56415f0b34f3716564579376d257c124ceaa753",
+    "train.csv": "f26641e38f62b3fb70b44880775d7ffd87e95220fcc525dc7dce69c9267b0e6d",
+    "val.csv": "90a8923740c4ae46d939b3301f99f9226dd255c101366f513537144045c8d162",
+    "config.json": "e14ac52d0aa147bf1bbb66176927c256d3b6891674bf298e0cbf0c6d7026c0e9"
+  }
+}

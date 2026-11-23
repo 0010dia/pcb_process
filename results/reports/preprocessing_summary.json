@@ -1,0 +1,26 @@
+{
+  "config": {
+    "size": 128,
+    "margin": 16,
+    "validation_group": "group00041",
+    "seed": 42,
+    "endpoint": "inclusive_conservative",
+    "padding": "edge",
+    "interpolation": "bilinear"
+  },
+  "source_counts": {
+    "train": 800,
+    "test": 500,
+    "val": 200
+  },
+  "patch_counts": {
+    "train": 5338,
+    "val": 1535
+  },
+  "neighbor_patches": 1136,
+  "padded_patches": 264,
+  "cross_split_exact_patch_duplicates": 0,
+  "cross_split_group_overlap": 0,
+  "test_patches_created": 0,
+  "manifest_sha256": "403019c76cb1995b420781e6b2f95aa4709adb10229c4ac68f4a78cc981284a9"
+}

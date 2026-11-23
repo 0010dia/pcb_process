@@ -1,0 +1,27 @@
+{
+  "parameters": 158825,
+  "python": "3.11.9",
+  "packages": {
+    "tensorflow": "2.18.1",
+    "keras": "3.8.0",
+    "numpy": "2.0.2",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.6.1"
+  },
+  "execution": {
+    "optimizer_options": {
+      "disable_model_pruning": false,
+      "disable_meta_optimizer": true
+    },
+    "gpu_devices": [
+      "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+    ]
+  },
+  "pixel_resolution": [
+    640,
+    640
+  ],
+  "batch_size": 4,
+  "all_model_weights_new": true,
+  "nondeterminism": "fixed seed; GPU and parallel augmentation may vary"
+}

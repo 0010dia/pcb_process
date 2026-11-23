@@ -1,0 +1,24 @@
+{
+  "task": "binary_patch_classification",
+  "classes": {
+    "0": "normal",
+    "1": "defect"
+  },
+  "threshold": 0.5,
+  "decision": "defect when sigmoid_score > threshold",
+  "input_size": [
+    128,
+    128,
+    1
+  ],
+  "input_range": [
+    0,
+    255
+  ],
+  "normalization": "Rescaling(1/255) inside model",
+  "input_scope": "single PCB circuit patch; not a complete PCB image",
+  "calibrated": false,
+  "preprocessing_version": "binary_v1",
+  "validation_group": "group00041",
+  "official_test_evaluated": false
+}

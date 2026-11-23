@@ -1,0 +1,4 @@
+run_name,initialization,epochs,best_epoch,samples,accuracy,balanced_accuracy,defect_precision,defect_recall,defect_f1,macro_f1,normal_false_positive_rate,defect_false_negative_rate,roc_auc,average_precision,true_normal,false_defect,missed_defect,true_defect,threshold,split,unit,official_test_evaluated
+full_frozen_001,patch_transfer_reference,12,6,400,0.9525,0.9525,0.9209302325581395,0.99,0.9542168674698795,0.9524331090596151,0.085,0.01,0.978625,0.9596309738973257,183,17,2,198,0.5,validation,full_640_image,False
+full_finetuned_001,patch_transfer_reference,6,4,400,0.955,0.9550000000000001,0.9212962962962963,0.995,0.9567307692307693,0.9549278846153846,0.085,0.005,0.979325,0.9611360193770446,183,17,1,199,0.5,validation,full_640_image,False
+full_scratch_aux_001,random_from_scratch_primary,17,12,400,0.9875,0.9875,0.9802955665024631,0.995,0.9875930521091811,0.987499296835447,0.02,0.005,0.998875,0.9988736581051642,196,4,1,199,0.5,validation,full_640_image,False

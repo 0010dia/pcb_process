@@ -1,0 +1,7 @@
+class_id,defect_type,samples,recall
+1,Open Circuit,278,0.9928057553956835
+2,Short Circuit,203,0.9655172413793104
+3,Mousebite,347,1.0
+4,Spur,254,0.9881889763779528
+5,Spurious Copper,232,1.0
+6,Pin Hole,221,0.9819004524886877

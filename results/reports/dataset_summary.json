@@ -1,0 +1,114 @@
+{
+  "created_at_utc": "2026-11-18T06:19:24.451357+00:00",
+  "data_root": "/Users/yeongjunna/DNN_project/data",
+  "manifest_sha256": {
+    "trainval.txt": "8b91b36368cf50b0cb8ccf70ecbf5042e49f81709f5021dc7bc3a5774d9c7b8e",
+    "test.txt": "c3417f4beca9d606ea4cff54d501f57442c5384705ca4c4d67f90d0afece10aa"
+  },
+  "physical_image_files": 3001,
+  "physical_annotation_files": 1500,
+  "listed_image_files": 3000,
+  "unlisted_images": [
+    "group90100/90100/90100034_temp.jpg"
+  ],
+  "unlisted_labels": [],
+  "manifest_pairs": 1500,
+  "parsed_objects": 10013,
+  "valid_objects": 10013,
+  "annotation_lines": 10013,
+  "invalid_objects": 0,
+  "split_pairs": {
+    "trainval": 1000,
+    "test": 500
+  },
+  "split_objects": {
+    "trainval": 6873,
+    "test": 3140
+  },
+  "class_counts": {
+    "trainval": {
+      "1": 1283,
+      "2": 1028,
+      "3": 1379,
+      "4": 1142,
+      "5": 1010,
+      "6": 1031
+    },
+    "test": {
+      "1": 659,
+      "2": 478,
+      "3": 586,
+      "4": 483,
+      "5": 464,
+      "6": 470
+    }
+  },
+  "group_count": 11,
+  "shared_official_groups": [
+    "group00041",
+    "group13000",
+    "group20085",
+    "group44000",
+    "group50600",
+    "group77000",
+    "group92000"
+  ],
+  "pixel_duplicates": {
+    "test": {
+      "repeated_hash_groups": 0,
+      "cross_split_hash_groups": 0,
+      "cross_split_images": 0
+    },
+    "temp": {
+      "repeated_hash_groups": 1,
+      "cross_split_hash_groups": 0,
+      "cross_split_images": 0
+    }
+  },
+  "image_shapes": {
+    "test": {
+      "(640, 640, 'L')": 1462,
+      "(640, 640, 'RGB')": 38
+    },
+    "temp": {
+      "(640, 640, 'L')": 1476,
+      "(640, 640, 'RGB')": 24
+    }
+  },
+  "errors": 0,
+  "warnings": 1,
+  "test_policy": "counts_and_integrity_only; all detailed EDA uses official trainval",
+  "bbox_convention": "EDA extent=x2-x1,y2-y1; inclusive endpoint not asserted",
+  "class_mapping": {
+    "1": {
+      "name": "Open Circuit",
+      "korean": "회로 단선",
+      "target_id": 0
+    },
+    "2": {
+      "name": "Short Circuit",
+      "korean": "회로 단락",
+      "target_id": 1
+    },
+    "3": {
+      "name": "Mousebite",
+      "korean": "패턴 가장자리 결손",
+      "target_id": 2
+    },
+    "4": {
+      "name": "Spur",
+      "korean": "구리 돌출",
+      "target_id": 3
+    },
+    "5": {
+      "name": "Spurious Copper",
+      "korean": "잔여 구리",
+      "target_id": 4
+    },
+    "6": {
+      "name": "Pin Hole",
+      "korean": "패턴 내부 구멍",
+      "target_id": 5
+    }
+  }
+}

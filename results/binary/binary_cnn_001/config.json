@@ -1,0 +1,27 @@
+{
+  "config": {
+    "run_name": "binary_cnn_001",
+    "epochs": 25,
+    "batch_size": 32,
+    "learning_rate": 0.0005,
+    "patience": 6,
+    "seed": 42,
+    "augment": true,
+    "threshold": 0.5
+  },
+  "execution": {
+    "optimizer_options": {
+      "disable_model_pruning": false,
+      "disable_meta_optimizer": true
+    },
+    "gpu_devices": [
+      "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+    ]
+  },
+  "data_sha256": {
+    "config.json": "30d46fbab4b27bd6673a18be5041959e944cf12950565d74d7ce6755f389dd42",
+    "patches.csv": "b097c1f2cb6d1e3b6756ef131fb52fd617a81901eca029b5b29da558932f4d11",
+    "train.csv": "49f6d0cc353f1aa5eddc29b6b5ce2c9eb06dc16dc94b1bc13008cf4dd6ab9506",
+    "val.csv": "29e9d1117acc7705e8fd1d464191d0903388165da1bd399ece22a546ea115518"
+  }
+}

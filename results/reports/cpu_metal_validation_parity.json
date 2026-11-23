@@ -1,0 +1,14 @@
+{
+  "samples": 1535,
+  "cpu_device": "/job:localhost/replica:0/task:0/device:CPU:0",
+  "max_score_delta": 4.7190399166119334e-07,
+  "prediction_agreement": 1.0,
+  "cpu_validation_metrics": {
+    "accuracy": 0.9947882736156352,
+    "precision_macro": 0.9947801697058795,
+    "recall_macro": 0.9951290457540952,
+    "macro_f1": 0.9949463198655196,
+    "weighted_f1": 0.9947894831343763
+  },
+  "verified": true
+}

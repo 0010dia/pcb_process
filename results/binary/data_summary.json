@@ -1,0 +1,53 @@
+{
+  "candidates": 20588,
+  "included": 19751,
+  "excluded": 837,
+  "exclusions": {
+    "identical_pixels_across_splits": 837
+  },
+  "counts": [
+    {
+      "split": "train",
+      "kind": "defect",
+      "target": 1,
+      "patches": 5338
+    },
+    {
+      "split": "train",
+      "kind": "template_matched",
+      "target": 0,
+      "patches": 4690
+    },
+    {
+      "split": "train",
+      "kind": "tested_clear",
+      "target": 0,
+      "patches": 5308
+    },
+    {
+      "split": "val",
+      "kind": "defect",
+      "target": 1,
+      "patches": 1535
+    },
+    {
+      "split": "val",
+      "kind": "template_matched",
+      "target": 0,
+      "patches": 1346
+    },
+    {
+      "split": "val",
+      "kind": "tested_clear",
+      "target": 0,
+      "patches": 1534
+    }
+  ],
+  "sampling_failures": 31,
+  "train_sources": 800,
+  "val_sources": 200,
+  "test_patches_created": 0,
+  "cross_split_group_overlap": 0,
+  "cross_split_pixel_overlap": 0,
+  "manifest_sha256": "b097c1f2cb6d1e3b6756ef131fb52fd617a81901eca029b5b29da558932f4d11"
+}

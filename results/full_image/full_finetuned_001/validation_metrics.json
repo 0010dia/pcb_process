@@ -1,0 +1,21 @@
+{
+  "samples": 400,
+  "accuracy": 0.955,
+  "balanced_accuracy": 0.9550000000000001,
+  "defect_precision": 0.9212962962962963,
+  "defect_recall": 0.995,
+  "defect_f1": 0.9567307692307693,
+  "macro_f1": 0.9549278846153846,
+  "normal_false_positive_rate": 0.085,
+  "defect_false_negative_rate": 0.005,
+  "roc_auc": 0.979325,
+  "average_precision": 0.9611360193770446,
+  "true_normal": 183,
+  "false_defect": 17,
+  "missed_defect": 1,
+  "true_defect": 199,
+  "threshold": 0.5,
+  "split": "validation",
+  "unit": "full_640_image",
+  "official_test_evaluated": false
+}

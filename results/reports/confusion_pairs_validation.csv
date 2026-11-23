@@ -1,0 +1,7 @@
+class_name,predicted_target,count
+Mousebite,5,3
+Mousebite,0,1
+Pin Hole,2,1
+Short Circuit,2,1
+Spur,1,1
+Spurious Copper,0,1

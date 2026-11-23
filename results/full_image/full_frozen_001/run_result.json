@@ -1,0 +1,32 @@
+{
+  "run_name": "full_frozen_001",
+  "metrics": {
+    "samples": 400,
+    "accuracy": 0.9525,
+    "balanced_accuracy": 0.9525,
+    "defect_precision": 0.9209302325581395,
+    "defect_recall": 0.99,
+    "defect_f1": 0.9542168674698795,
+    "macro_f1": 0.9524331090596151,
+    "normal_false_positive_rate": 0.085,
+    "defect_false_negative_rate": 0.01,
+    "roc_auc": 0.978625,
+    "average_precision": 0.9596309738973257,
+    "true_normal": 183,
+    "false_defect": 17,
+    "missed_defect": 2,
+    "true_defect": 198,
+    "threshold": 0.5,
+    "split": "validation",
+    "unit": "full_640_image",
+    "official_test_evaluated": false
+  },
+  "epochs_completed": 12,
+  "best_epoch": 6,
+  "elapsed_seconds": 52.493929582997225,
+  "full_model_parameters": 86929,
+  "trainable_parameters": 14465,
+  "cached_vs_end_to_end_max_score_delta": 2.1483612056005796e-07,
+  "model_path": "/Users/yeongjunna/DNN_project/models/full_frozen_001/best.keras",
+  "status": "completed"
+}

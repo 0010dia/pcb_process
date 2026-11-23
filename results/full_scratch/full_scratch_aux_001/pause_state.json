@@ -1,0 +1,17 @@
+{
+  "status": "paused_by_user",
+  "history_last_completed_epoch": 12,
+  "resume_checkpoint_epoch": 11,
+  "next_epoch_when_resuming": 12,
+  "checkpoint": "results/full_scratch/full_scratch_aux_001/best_training_model.keras",
+  "checkpoint_sha256": "3281ce8c83f031a169e443f14c2410cd079f2d6791fe79f63cc6a6af6acd790f",
+  "optimizer": "Adam",
+  "verified_optimizer_iterations": 4400,
+  "verified_learning_rate": 0.0001500000071246177,
+  "validation_accuracy_at_checkpoint": 0.9850000143051147,
+  "validation_macro_f1_at_checkpoint": 0.9849996249906248,
+  "training_complete": false,
+  "final_cpu_validation_performed": false,
+  "kernel_killed": true,
+  "new_training_started_after_pause": false
+}

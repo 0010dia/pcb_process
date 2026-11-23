@@ -1,0 +1,38 @@
+[
+  {
+    "device": "/CPU:0",
+    "graph": false,
+    "numpy_accuracy": 0.5625,
+    "tensorflow_accuracy": 0.5625,
+    "numpy_loss": 1.0657545328140259,
+    "tensorflow_loss": 1.0657546520233154,
+    "max_prediction_delta": 0.0
+  },
+  {
+    "device": "/CPU:0",
+    "graph": true,
+    "numpy_accuracy": 0.5625,
+    "tensorflow_accuracy": 0.5625,
+    "numpy_loss": 1.0657545328140259,
+    "tensorflow_loss": 1.0657546520233154,
+    "max_prediction_delta": 0.0
+  },
+  {
+    "device": "/GPU:0",
+    "graph": false,
+    "numpy_accuracy": 0.5625,
+    "tensorflow_accuracy": 0.5625,
+    "numpy_loss": 1.0657546520233154,
+    "tensorflow_loss": 1.0657546520233154,
+    "max_prediction_delta": 1.1920928955078125e-07
+  },
+  {
+    "device": "/GPU:0",
+    "graph": true,
+    "numpy_accuracy": 0.5625,
+    "tensorflow_accuracy": 0.5625,
+    "numpy_loss": 0.9356686472892761,
+    "tensorflow_loss": 0.9356686472892761,
+    "max_prediction_delta": 0.41548728942871094
+  }
+]

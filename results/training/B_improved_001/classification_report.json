@@ -1,0 +1,51 @@
+{
+  "Open Circuit": {
+    "precision": 0.9928571428571429,
+    "recall": 1.0,
+    "f1-score": 0.996415770609319,
+    "support": 278.0
+  },
+  "Short Circuit": {
+    "precision": 0.9950738916256158,
+    "recall": 0.9950738916256158,
+    "f1-score": 0.9950738916256158,
+    "support": 203.0
+  },
+  "Mousebite": {
+    "precision": 0.9942028985507246,
+    "recall": 0.9884726224783862,
+    "f1-score": 0.9913294797687862,
+    "support": 347.0
+  },
+  "Spur": {
+    "precision": 1.0,
+    "recall": 0.9960629921259843,
+    "f1-score": 0.9980276134122288,
+    "support": 254.0
+  },
+  "Spurious Copper": {
+    "precision": 1.0,
+    "recall": 0.9956896551724138,
+    "f1-score": 0.9978401727861771,
+    "support": 232.0
+  },
+  "Pin Hole": {
+    "precision": 0.9865470852017937,
+    "recall": 0.995475113122172,
+    "f1-score": 0.990990990990991,
+    "support": 221.0
+  },
+  "accuracy": 0.9947882736156352,
+  "macro avg": {
+    "precision": 0.9947801697058795,
+    "recall": 0.9951290457540952,
+    "f1-score": 0.9949463198655196,
+    "support": 1535.0
+  },
+  "weighted avg": {
+    "precision": 0.9948075552709991,
+    "recall": 0.9947882736156352,
+    "f1-score": 0.9947894831343763,
+    "support": 1535.0
+  }
+}

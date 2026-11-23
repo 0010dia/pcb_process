@@ -1,0 +1,24 @@
+{
+  "task": "full_image_single_binary",
+  "input_size": [
+    640,
+    640,
+    1
+  ],
+  "input_images": 1,
+  "reference_image_required": false,
+  "mask_input_required": false,
+  "threshold": 0.5,
+  "initialization": "random",
+  "patch_weights_used": false,
+  "pretrained_weights_used": false,
+  "auxiliary_targets_training_only": true,
+  "crop": false,
+  "resize": false,
+  "calibrated": false,
+  "classes": {
+    "0": "normal",
+    "1": "defect"
+  },
+  "official_test_evaluated": false
+}

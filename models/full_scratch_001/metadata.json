@@ -1,0 +1,28 @@
+{
+  "task": "full_image_single_binary",
+  "input_size": [
+    640,
+    640,
+    1
+  ],
+  "input_images": 1,
+  "reference_image_required": false,
+  "crop": false,
+  "resize": false,
+  "threshold": 0.5,
+  "classes": {
+    "0": "normal",
+    "1": "defect"
+  },
+  "input_range": [
+    0,
+    255
+  ],
+  "calibrated": false,
+  "initialization": "random",
+  "pretrained_weights_used": false,
+  "patch_weights_used": false,
+  "normalization": "Rescaling(1/255) inside saved model",
+  "validation_group": "group00041",
+  "official_test_evaluated": false
+}

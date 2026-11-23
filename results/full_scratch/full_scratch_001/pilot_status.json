@@ -1,0 +1,7 @@
+{
+  "status": "interrupted_pilot",
+  "reason": "Image-only weak supervision was slow for sparse defects. Switch to a fresh native-image CNN with annotation-derived auxiliary supervision.",
+  "completed_training": false,
+  "performance_comparison_eligible": false,
+  "weights_and_logs_preserved": true
+}
